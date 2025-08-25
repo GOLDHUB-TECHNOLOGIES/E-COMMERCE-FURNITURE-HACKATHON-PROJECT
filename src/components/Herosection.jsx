@@ -13,34 +13,31 @@ const Herosection = () => {
         </span>
         <div className="">
           <h1 className="font-semibold text-5xl text-[#054C73] leading-snug">
-          <Typewriter
-            words={["Discover Our New Collection."]}
-            loop={false}
-            cursor
-            cursorStyle="|"
-            typeSpeed={100}
-            deleteSpeed={100}
-            delaySpeed={2000}
-          />
-        </h1>
-
+            <Typewriter
+              words={["Discover Our New Collection."]}
+              loop={false}
+              cursor
+              cursorStyle="|"
+              typeSpeed={100}
+              deleteSpeed={100}
+              delaySpeed={2000}
+            />
+          </h1>
         </div>
-        
+
         <div className="space-y-5">
-           <p className="text-gray-700 ">
-          Step into a world of style, comfort, and craftsmanship.
-          Our curated furniture collection blends modern design with timeless appeal perfect for every room and every lifestyle.
-        </p>
+          <p className="text-gray-700 ">
+            Step into a world of style, comfort, and craftsmanship. Our curated
+            furniture collection blends modern design with timeless appeal
+            perfect for every room and every lifestyle.
+          </p>
 
-        <Link to="/gallery">
-        <button className="rounded-3xl py-3 px-8 mt-4 bg-[#054C73] text-white hover:bg-[#043d5c] transition">
-          Buy Now
-        </button>
-        </Link>
-
+          <Link to="/gallery">
+            <button className="rounded-3xl py-3 px-8 mt-4 bg-[#054C73] text-white hover:bg-[#043d5c] transition">
+              Buy Now
+            </button>
+          </Link>
         </div>
-       
-        
       </div>
     </section>
   );

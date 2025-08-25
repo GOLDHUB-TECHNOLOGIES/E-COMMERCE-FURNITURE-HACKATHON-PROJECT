@@ -1,19 +1,19 @@
-import React from 'react'
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
-import Ourgallery from '../Components/Ourgallery';
+import React from "react";
+import Navbar from "../components/Navbar";
+import Gallery from "../components/Gallery";
+import Footer from "../components/Footer";
 
-const Gallery = () => {
+const gallery = () => {
   return (
     <>
-    <Navbar/>
-    <div className='mt-20'>
-    <Ourgallery/>
-    </div>
-    
-    <Footer/>
-    </>
-  )
-}
+      <Navbar />
+      <div className="mt-20">
+        <Gallery />
+      </div>
 
-export default Gallery;
+      <Footer />
+    </>
+  );
+};
+
+export default gallery;

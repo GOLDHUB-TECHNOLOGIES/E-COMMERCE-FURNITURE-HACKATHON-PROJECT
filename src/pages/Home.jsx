@@ -5,7 +5,7 @@ import Guarantee from "../components/Guarantee";
 import InspiCollection from "../components/InspiCollection";
 import Bys from "../components/Bys";
 import Hiwsection from "../components/HiwSection";
-import OurGallery from "../components/OurGallery";
+import OurGallery from "../components/Gallery";
 import Spinner from "../components/Spinner";
 import Lookroom from "../components/Lookroom";
 import Footer from "../components/Footer";

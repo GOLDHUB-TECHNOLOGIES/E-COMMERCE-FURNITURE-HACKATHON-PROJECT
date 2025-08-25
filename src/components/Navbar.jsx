@@ -23,24 +23,35 @@ const Navbar = () => {
     <>
       <nav className=" fixed top-0 left-0 w-full py-4 shadow-md bg-[#ffff] z-50 flex items-center justify-between  mb-5 px-6">
         <Link to="/">
-        <h1 className="text-[#054C73] font-bold text-2xl">SHINE LUXURY FURNITURE</h1>
+          <h1 className="text-[#054C73] font-bold text-2xl">
+            SHINE LUXURY FURNITURE
+          </h1>
         </Link>
-        
 
         <ul className="hidden  text-lg font-bold md:flex gap-20 items-center">
-          
           <Link to="/services">
-          <li className="flex items-center gap-2"> <FaServicestack /> Service</li>
+            <li className="flex items-center gap-2">
+              {" "}
+              <FaServicestack /> Service
+            </li>
           </Link>
-          
+
           <Link to="/gallery">
-            <li className="flex items-center gap-2"> <TfiGallery /> Gallery</li>
+            <li className="flex items-center gap-2">
+              {" "}
+              <TfiGallery /> Gallery
+            </li>
           </Link>
           <Link to="/cart">
-            <li className="flex items-center gap-2"> <FaCartPlus /> Cart</li>
+            <li className="flex items-center gap-2">
+              {" "}
+              <FaCartPlus /> Cart
+            </li>
           </Link>
           <Link to="/contact">
-            <li className="flex items-center gap-2"><FaPhone />  Contact Us</li>
+            <li className="flex items-center gap-2">
+              <FaPhone /> Contact Us
+            </li>
           </Link>
           <Link to="/signin">
             <li className="text-white bg-[#054C73] hover:bg-[#054c7391] font-medium rounded-lg text-sm px-5 py-2.5">
